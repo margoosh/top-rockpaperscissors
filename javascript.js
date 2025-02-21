@@ -1,5 +1,11 @@
 console.log('We\'ve made contact');
 
+function getHumanChoice(){
+
+    let humanChoice = prompt(`Please make your choice: Rock, Paper or Scissors `);
+    console.log(`Your choice: ${humanChoice}`);
+};
+
 function getComputerChoice() {
     let computerChoice = Math.floor(Math.random() * 3);
 
@@ -15,4 +21,5 @@ function getComputerChoice() {
 
 console.log(`Welcome to Rock Paper Scissors!`);
 
+getHumanChoice();
 console.log(`Computer Chose: ${getComputerChoice()}`);
