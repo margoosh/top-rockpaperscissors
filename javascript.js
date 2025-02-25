@@ -106,7 +106,4 @@ function playGame(){
 }
 console.log(`Welcome to Rock Paper Scissors!`);
 
-// const humanSelection = getHumanChoice();
-// const computerSelection = getComputerChoice();
-
 playGame();
